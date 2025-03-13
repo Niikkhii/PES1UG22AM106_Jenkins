@@ -21,7 +21,7 @@ pipeline {
             steps {
                 script {
                     echo 'Running tests...'
-                    sh './hello_exec'  // Executes the compiled C++ program
+                    sh './hello2_exec'  // Executes the compiled C++ program
                 }
             }
         }
